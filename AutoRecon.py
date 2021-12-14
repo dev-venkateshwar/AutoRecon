@@ -19,7 +19,7 @@ C = '\033[36m'
 W = '\033[0m' 
 
 def reconinput():
-    inp=(input("auto recon >> "))
+    inp=(input("Auto Recon >> "))
     if(inp == '1'):
         gps()
     elif(inp == '2'):
